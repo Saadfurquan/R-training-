@@ -9,5 +9,7 @@ person.data <- data.frame(
 )
 # Print the data frame.			
 print(person.data)
-# extracting first two rows
+# extracting first two rows from a given data frame
+print(person.data[1:2]
+# extracting 3rd and 5th rows with 1st and 3rd columns from a given data frame
 print(person.data[c(3,5),c(1,3)])
