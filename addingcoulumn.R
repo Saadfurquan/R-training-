@@ -11,5 +11,6 @@ person.data <- data.frame(
 )
 # Print the data frame.			
 print(person.data) 
+# adding coulumn
 person.data$place_of_birth=c("Houston","Brunswick","Oxfordshie","Ontario","London")
 print(person.data)
