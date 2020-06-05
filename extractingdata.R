@@ -10,4 +10,4 @@ person.data <- data.frame(
 # Print the data frame.			
 print(person.data)
 # extracting first two rows
-print(person.data[1:2])
+print(person.data[c(3,5),c(1,3)])
